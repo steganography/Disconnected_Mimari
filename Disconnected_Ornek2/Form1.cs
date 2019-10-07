@@ -25,7 +25,7 @@ namespace Disconnected_Ornek2
         private void Form1_Load(object sender, EventArgs e)
         {
             con = new SqlConnection("server=.; database=Northwind007; uid=sa; pwd=123");
-            da = new SqlDataAdapter("select * from Shippers", con);
+            da = new SqlDataAdapter("select * from Shippers", con);//5
 
 
 
